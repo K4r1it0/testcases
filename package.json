@@ -1,0 +1,18 @@
+{
+  "name": "dependency-confusion-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "@company-internal/utils": "1.0.0",
+    "@paysafe-private/logger": "2.0.0",
+    "internal-company-lib": "1.0.0",
+    "@existing-scope/nonexistent": "1.0.0",
+    "@microsoft-private/core": "1.0.0",
+    "private-internal-package": "2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "14.0.0",
+    "@babel/core": "7.0.0",
+    "react": "17.0.2",
+    "express": "4.17.1"
+  }
+}

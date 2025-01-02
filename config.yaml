@@ -1,0 +1,21 @@
+dependencies:
+  - name: "@company-internal/utils"
+    version: "1.0.0"
+  - name: "@paysafe-private/logger"
+    version: "2.0.0"
+  - name: "internal-company-lib"
+    version: "1.0.0"
+
+registries:
+  - name: "private-registry"
+    url: "https://npm.internal-company.com"
+    packages:
+      - "@company-internal/*"
+      - "@paysafe-private/*"
+      - "@microsoft-private/*"
+
+workspaces:
+  - packages:
+      - "@internal/core"
+      - "@private/ui-components"
+      - "internal-lib" 
